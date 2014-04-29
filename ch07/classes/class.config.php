@@ -32,7 +32,7 @@
 
 		// Method for defining a setting settings:
 		function set($index, $value) {
-			$this->$_settings[$index] = $value;
+			$this->_settings[$index] = $value;
 		}
 
 		// Method for retrieving a setting:
