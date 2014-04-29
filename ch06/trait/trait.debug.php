@@ -25,14 +25,14 @@
 			// Print the attributes:
 			echo '<h3>Attributes</h3><ul>';
 			foreach ($attributes as $key => $value) {
-				echo "<li>$k: $v</li>";
+				echo "<li>$key: $value</li>";
 			}
 			echo '</li></ul>';
 
 			// Print the methods:
 			echo '<h3>Methods</h3><ul>';
 			foreach ($methods as $value) {
-				echo "<li>$v</li>";
+				echo "<li>$value</li>";
 			}
 			echo '</li></ul>';
 
