@@ -9,8 +9,11 @@
 	 * - getPerimeter()
 	 * - isSquare()
 	 */
-
 	class Rectangle {
+
+		// Use the Debug trait:
+		use Debug;
+
 		// Declare the attributes:
 		public $width = 0;
 		public $height = 0;
